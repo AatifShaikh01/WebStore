@@ -6,7 +6,7 @@ const templates = [
         price: 149,
         category: "birthday",
         image: "assets/BD1.jpg",
-        description: "A profesionally Devloped with beutiful theme, fonts, amazing functionality and your fav song in background. Customize and suprise your partner ",
+        description: "A profesionally Devloped with beutiful theme, fonts, amazing functionality and your fav song in background. Customize and suprise your partner.",
         badge: "Popular"
     },
     {
