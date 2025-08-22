@@ -5,7 +5,7 @@ const templates = [
         name: "Birthday 1",
         price: 339,
         category: "birthday",
-        image: "assets/ANNI1.jpg",
+        image: "assets/BD1.jpg",
         description: "A profesionally Devloped with beutiful theme, fonts, amazing functionality and your fav song in background. Customize and suprise your partner ",
         badge: "Popular"
     },
