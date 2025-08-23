@@ -553,3 +553,43 @@
           .Link :hover {
              font-size: 27px;
      }
+
+              /*  */
+          .reviews {
+             max-width: 1200px;
+             margin: auto;
+             padding: 40px 20px;
+     }
+
+          .review-container {
+             display: grid;
+             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+             gap: 20px;
+     }
+
+          .review-card {
+             background: #fff;
+             border-radius: 16px;
+             padding: 20px;
+             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+             text-align: center;
+             transition: transform 0.3s ease, box-shadow 0.3s ease;
+     }
+
+          .review-card:hover {
+             transform: translateY(-5px);
+             box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+     }
+
+          .review-card h3 {
+             color: #f39c12;
+             margin-bottom: 10px;
+             font-size: 20px;
+     }
+
+          .review-card p {
+             font-size: 15px;
+             color: #444;
+             line-height: 1.4;
+     }
+
