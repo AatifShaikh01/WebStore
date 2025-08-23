@@ -16,7 +16,8 @@ const templates = [
         category: "birthday",
         image: "assets/BD2.jpg",
         description: "A profesionally Devloped with beutiful theme, fonts, amazing functionality and your fav song in background. Customize and suprise your partner.",
-        badge: "Best Seller"
+        badge: "Best Seller",
+        link: "birthdaycodeix.netlify.app"
     },
     {
         id: 3,
@@ -70,7 +71,8 @@ const templates = [
         category: "anniversary",
         image: "assets/ANNI2.jpg",
         description: "Make your day spacial with your heartfelt words, cherished memories, and their favorite song playing in the background.",
-        badge: "Popular"
+        badge: "Popular",
+        link: "anniversarcodrenix.netlify.app"
     },
     {
         id: 9,
@@ -152,7 +154,7 @@ const templates = [
         image: "assets/IMG-20250823-WA0000.jpg",
         description: "This is a beautiful and elegant wedding anniversary website, perfect for a personalized gift. It features a stunning dark and gold theme, a gallery for photos and videos, and a dedicated section for a personal love letter.",
         badge: "Popular",
-        link: "https://www.amazon.in/",
+        link: "birthdaycodrenix.netlify.app",
     },
     
 ];
