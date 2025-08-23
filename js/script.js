@@ -7,7 +7,8 @@ const templates = [
         category: "birthday",
         image: "assets/BD1.jpg",
         description: "A profesionally Devloped with beutiful theme, fonts, amazing functionality and your fav song in background. Customize and suprise your partner.",
-        badge: "Popular"
+        badge: "Popular",
+        link: "birthdaycodrenix.netlify.app",
     },
     {
         id: 2,
@@ -17,7 +18,7 @@ const templates = [
         image: "assets/BD2.jpg",
         description: "A profesionally Devloped with beutiful theme, fonts, amazing functionality and your fav song in background. Customize and suprise your partner.",
         badge: "Best Seller",
-        link: "birthdaycodeix.netlify.app"
+        link: "birthday-1codrenix.netlify.app"
     },
     {
         id: 3,
@@ -26,7 +27,8 @@ const templates = [
         category: "portfolio",
         image: "assets/PORT1.jpg",
         description: "Beautiful portfolio template for Business, and creative professionals. with the dark premium look.",
-        badge: "New"
+        badge: "New",
+        link: "codrenix.netlify.app",
     },
     {
         id: 4,
@@ -35,7 +37,8 @@ const templates = [
         category: "restaurant",
         image: "assets/RES1.jpg",
         description: "Elegant restaurant template with menu display, reservation system, and gallery.",
-        badge: "Featured"
+        badge: "Featured",
+        link: "restourentcodrenix.netlify.app",
     },
     {
         id: 5,
@@ -44,7 +47,8 @@ const templates = [
         category: "Portfolio",
         image: "assets/GYM1.jpg",
         description: "A dark themed Gym Portfolio with whatsapp messaging system. Book now and Boost your Gym's online presence & get more Clients",
-        badge: "Popular"
+        badge: "Popular",
+        link: "gymcodrenix.netlify.app",
     },
     {
         id: 6,
@@ -53,7 +57,8 @@ const templates = [
         category: "business",
         image: "assets/Real.jpg",
         description: "Professional real estate template with property listings, search filters, and agent profiles.",
-        badge: "Premium"
+        badge: "Premium",
+        link: "real-estatecodrenix.netlify.app",
     },
     {
         id: 7,
@@ -62,7 +67,8 @@ const templates = [
         category: "anniversary",
         image: "assets/ANNI1.jpg",
         description: "Make your day spacial with your heartfelt words, cherished memories, and their favorite song playing in the background.",
-        badge: "Best Seller"
+        badge: "Best Seller",
+        link: "anniversary-1codrenix.netlify.app",
     },
     {
         id: 8,
@@ -72,7 +78,7 @@ const templates = [
         image: "assets/ANNI2.jpg",
         description: "Make your day spacial with your heartfelt words, cherished memories, and their favorite song playing in the background.",
         badge: "Popular",
-        link: "anniversarcodrenix.netlify.app"
+        link: "anniversary-2codrenix.netlify.app"
     },
     {
         id: 9,
@@ -81,7 +87,8 @@ const templates = [
         category: "portfolio",
         image: "assets/PORT2.jpg",
         description: "A sleek, modern portfolio website designed specifically for editors. Featuring an elegant dark theme, it allows you to beautifully showcase your past work, client reviews, and detailed pricing, making a powerful and professional impression.",
-        badge: "Popular"
+        badge: "Popular",
+        link: "editor-portfoliocodrenix.netlify.app",
     },
         {
         id: 10,
@@ -90,7 +97,8 @@ const templates = [
         category: "portfolio",
         image: "assets/DR1.jpg",
         description: "A professional and elegant portfolio website designed for doctors. With a clean, sophisticated layout, it allows you to showcase your specializations, credentials, and patient testimonials, building trust and credibility with a modern online presence.",
-        badge: "Popular"
+        badge: "Popular",
+        link: "drportfoliocodrenix.netlify.app",    
     },
     {
         id: 11,
@@ -99,7 +107,8 @@ const templates = [
         category: "business",
         image: "assets/EDU.jpg",
         description: "A professional and elegant portfolio website designed for doctors. With a clean, sophisticated layout, it allows you to showcase your specializations, credentials, and patient testimonials, building trust and credibility with a modern online presence.",
-        badge: "Popular"
+        badge: "Popular",
+        link: "coachingcodrenix.netlify.app"
     },
     {
         id: 12,
@@ -108,7 +117,8 @@ const templates = [
         category: "love",
         image: "assets/LOVE1.jpg",
         description: "A normal love website for express your love. Book and give some love to your spacial one",
-        badge: "Popular"
+        badge: "Popular",
+        link: "ganeralcodrenix.netlify.app",
     },
     {
         id: 13,
@@ -117,7 +127,8 @@ const templates = [
         category: "love",
         image: "assets/LOVE2.jpg",
         description: "Make your Proposal spacial with the website with background music memories wall and your spacial letter.",
-        badge: "Popular"
+        badge: "Popular",
+        link: "perposalcodrenix.netlify.app",
     },
     {
         id: 14,
@@ -126,7 +137,8 @@ const templates = [
         category: "love",
         image: "assets/LOVE3.jpg",
         description: "Thanks A spacial person with customize website.",
-        badge: "Popular"
+        badge: "Popular",
+        link: "thankscodrenix.netlify.app",
     },
     {
         id: 15,
@@ -135,7 +147,8 @@ const templates = [
         category: "love",
         image: "assets/LOVE4.jpg",
         description: "Wish Valentine's Day to your spacial one in different style with customized website with your words and memories. ",
-        badge: "Popular"
+        badge: "Popular",
+        link: "valencetinecodrenix.netlify.app",
     },
     {
         id: 16,
@@ -144,7 +157,8 @@ const templates = [
         category: "anniversary",
         image: "assets/LOVE5.jpg",
         description: "This is a beautiful and elegant wedding anniversary website, perfect for a personalized gift. It features a stunning dark and gold theme, a gallery for photos and videos, and a dedicated section for a personal love letter.",
-        badge: "Popular"
+        badge: "Popular",
+        link: "weddingcodrenix.netlify.app",
     },
     {
         id: 17,
@@ -154,7 +168,7 @@ const templates = [
         image: "assets/IMG-20250823-WA0000.jpg",
         description: "This is a beautiful and elegant wedding anniversary website, perfect for a personalized gift. It features a stunning dark and gold theme, a gallery for photos and videos, and a dedicated section for a personal love letter.",
         badge: "Popular",
-        link: "birthdaycodrenix.netlify.app",
+        link: "birhday-2codrenix.netlify.app",
     },
     
 ];
