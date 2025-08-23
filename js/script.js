@@ -144,6 +144,15 @@ const templates = [
         description: "This is a beautiful and elegant wedding anniversary website, perfect for a personalized gift. It features a stunning dark and gold theme, a gallery for photos and videos, and a dedicated section for a personal love letter.",
         badge: "Popular"
     },
+    {
+        id: 17,
+        name: "Birthday 3",
+        price: 149.00,
+        category: "birthday",
+        image: "assets/IMG-20250823-WA0000.jpg",
+        description: "This is a beautiful and elegant wedding anniversary website, perfect for a personalized gift. It features a stunning dark and gold theme, a gallery for photos and videos, and a dedicated section for a personal love letter.",
+        badge: "Popular"
+    },
     
 ];
 
