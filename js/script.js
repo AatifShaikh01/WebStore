@@ -245,6 +245,10 @@ function loadTemplates() {
                 <button class="add-to-cart" onclick="addToCart(${template.id})">
                     <i class="fas fa-cart-plus"></i> Add to Cart
                 </button>
+                <br>
+                <button class="add-to-cart" onclick="window.location.href='${template.link}'">
+                     Live Demo 
+                </button>
             </div>
         `;
         productsGrid.appendChild(productCard);
