@@ -71,6 +71,7 @@ const templates = [
         image: "assets/ANNI2.jpg",
         description: "Make your day spacial with your heartfelt words, cherished memories, and their favorite song playing in the background.",
         badge: "Popular"
+        link:"anniversarcodrenix.netlify.app",
     },
     {
         id: 9,
