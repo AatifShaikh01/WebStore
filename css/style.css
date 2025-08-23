@@ -538,3 +538,18 @@
              font-size: 14px;
        }
      }
+
+          .Link {
+             display: inline-block;
+             padding: 10px px;
+             font-size: 30px;
+             text-decoration: none;
+             color: black;
+             border-radius: 8px;
+             margin: 0 10px;
+             transition: 0.3s;
+     }
+
+          .Link :hover {
+             font-size: 32px;
+     }
