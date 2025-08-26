@@ -152,7 +152,7 @@ const templates = [
     },
     {
         id: 16,
-        name: "Wedding Anniversary",
+        name: "Anniversary 3.0",
         price: 149.00,
         category: "anniversary",
         image: "assets/LOVE5.jpg",
@@ -179,6 +179,16 @@ const templates = [
         description: "Sometimes words aren’t enough… That’s why we created Sorry — A Personal Sorry Website, a beautifully designed interactive apology page that makes saying “I’m Sorry” truly unforgettable.",
         badge: "NEW",
         link: "https://sorry-1codrenix.netlify.app",
+    },
+    {
+        id: 19,
+        name: "Anniversary 4.0",
+        price: 249.00,
+        category: "anniversary",
+        image: "assets/ANNI4.jpg",
+        description: "A romantic Anniversary Website designed to celebrate love with heartfelt messages, soothing music, and elegant animations — a unique gift to make your special day unforgettable.",
+        badge: "NEW",
+        link: "https://anniversary-4codrenix.netlify.app/"
     },
     
 ];
