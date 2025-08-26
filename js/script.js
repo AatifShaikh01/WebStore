@@ -2,7 +2,7 @@
 const templates = [
     {
         id: 1,
-        name: "Birthday 1",
+        name: "Birthday 1.0",
         price: 149,
         category: "birthday",
         image: "assets/BD1.jpg",
@@ -12,7 +12,7 @@ const templates = [
     },
     {
         id: 2,
-        name: "Birthday 2",
+        name: "Birthday 2.0",
         price: 149,
         category: "birthday",
         image: "assets/BD2.jpg",
@@ -62,7 +62,7 @@ const templates = [
     },
     {
         id: 7,
-        name: "Anniversary 1",
+        name: "Anniversary 1.0",
         price: 149.00,
         category: "anniversary",
         image: "assets/ANNI1.jpg",
@@ -72,7 +72,7 @@ const templates = [
     },
     {
         id: 8,
-        name: "Anniversary 2",
+        name: "Anniversary 2.0",
         price: 149.00,
         category: "anniversary",
         image: "assets/ANNI2.jpg",
@@ -162,13 +162,23 @@ const templates = [
     },
     {
         id: 17,
-        name: "Birthday 3",
+        name: "Birthday 3.0",
         price: 149.00,
         category: "birthday",
         image: "assets/IMG-20250823-WA0000.jpg",
         description: "This is a beautiful and elegant wedding anniversary website, perfect for a personalized gift. It features a stunning dark and gold theme, a gallery for photos and videos, and a dedicated section for a personal love letter.",
         badge: "Popular",
         link: "https://birhday-2codrenix.netlify.app",
+    },
+    {
+        id: 18,
+        name: "Sorry 1.0",
+        price: 199.00,
+        category: "love",
+        image: "assets/sorry.jpg",
+        description: "Sometimes words aren’t enough… That’s why we created Sorry — A Personal Sorry Website, a beautifully designed interactive apology page that makes saying “I’m Sorry” truly unforgettable.",
+        badge: "NEW",
+        link: "https://sorry-1codrenix.netlify.app",
     },
     
 ];
