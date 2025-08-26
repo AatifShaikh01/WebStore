@@ -478,27 +478,3 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
-
-//new 
-
-    // Staggered animation for review cards
-    document.addEventListener('DOMContentLoaded', () => {
-        const cards = document.querySelectorAll('.review-card');
-        cards.forEach((card, index) => {
-            card.style.animationDelay = `${index * 0.2}s`;
-        });
-    });
-
-    // Interactive effect for "Read More" link
-    document.querySelectorAll('.Link').forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            const card = link.closest('.review-card');
-            card.classList.add('active');
-
-            // Reset animation after a delay
-            setTimeout(() => {
-                card.classList.remove('active');
-            }, 1000);
-        });
-    });
