@@ -166,7 +166,7 @@ const templates = [
         price: 149.00,
         category: "birthday",
         image: "assets/IMG-20250823-WA0000.jpg",
-        description: "This is a beautiful and elegant wedding anniversary website, perfect for a personalized gift. It features a stunning dark and gold theme, a gallery for photos and videos, and a dedicated section for a personal love letter.",
+        description: "This is a beautiful and elegant wedding birthday website, perfect for a personalized gift. It features a stunning dark and gold theme, a gallery for photos and videos, and a dedicated section for a personal love letter.",
         badge: "Popular",
         link: "https://birhday-2codrenix.netlify.app",
     },
