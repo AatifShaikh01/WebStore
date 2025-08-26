@@ -175,7 +175,7 @@ const templates = [
         name: "Sorry 1.0",
         price: 199.00,
         category: "love",
-        image: "assets/sorry.jpg",
+        image: "assets/sorry-1.jpg",
         description: "Sometimes words aren’t enough… That’s why we created Sorry — A Personal Sorry Website, a beautifully designed interactive apology page that makes saying “I’m Sorry” truly unforgettable.",
         badge: "NEW",
         link: "https://sorry-1codrenix.netlify.app",
