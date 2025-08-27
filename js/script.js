@@ -265,17 +265,6 @@ function loadTemplates() {
         return matchesCategory && matchesSearch;
     });
 
-    if (filteredTemplates.length === 0) {
-        productsGrid.innerHTML = `
-            <div class="no-results">
-                <i class="fas fa-search" style="font-size: 3rem; margin-bottom: 1rem;"></i>
-                <h3>No templates found</h3>
-                <p>Try adjusting your search or filter criteria</p>
-            </div>
-        `;
-        return;
-    }
-
     filteredTemplates.forEach(template => {
         const productCard = document.createElement('div');
         productCard.className = 'product-card fade-in';
@@ -292,8 +281,8 @@ function loadTemplates() {
                     <i class="fas fa-cart-plus"></i> Add to Cart
                 </button>
                 <br>
-                <button class="add-to-cart" onclick="window.location.href='${template.link}'">
-                     Live Demo 
+                <button class="add-to-cart" onclick="window.location.href='Page.html?id=${template.id}'">
+                      👁 See More Details
                 </button>
             </div>
         `;
