@@ -282,7 +282,7 @@ function loadTemplates() {
                 </button>
                 <br>
                 <button class="add-to-cart" onclick="window.location.href='Page.html?id=${template.id}'">
-                      👁 See More Details
+                      See More Details
                 </button>
             </div>
         `;
