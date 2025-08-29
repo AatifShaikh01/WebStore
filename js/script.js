@@ -218,7 +218,7 @@ const templates = [
         image: "assets/Birthday.new.jpg",
         description: "A profesionally Devloped with beutiful theme, fonts, amazing functionality and your fav song in background. Customize and suprise your partner.",
         badge: "NEW",
-        link: "birthday-4codrenix.netlify.app"
+        link: "https://birthday-4codrenix.netlify.app"
     },
     {
         id: 23,
