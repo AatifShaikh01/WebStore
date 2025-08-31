@@ -42,7 +42,7 @@ const templates = [
     },
     {
         id: 5,
-        name: "Fitness Master",
+        name: "Fitness Master 1.0",
         price: 1299.00,
         category: "Portfolio",
         image: "assets/GYM1.jpg",
@@ -243,16 +243,6 @@ const templates = [
     {
         id: 25,
         name: "Fitness Master 2.0",
-        price: 1299.00,
-        category: "Portfolio",
-        image: "assets/Gym2.jpg",
-        description: "A dark themed Gym Portfolio with whatsapp messaging system. Book now and Boost your Gym's online presence & get more Clients",
-        badge: "NEW",
-        link: "https://gym-20codrenix.netlify.app",
-    },
-    {
-        id: 26,
-        name: "Fitness Master",
         price: 1299.00,
         category: "Portfolio",
         image: "assets/Gym2.jpg",
