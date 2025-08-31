@@ -82,7 +82,7 @@ const templates = [
     },
     {
         id: 9,
-        name: "Video Editor's Portfolio",
+        name: "Video Editor's Portfolio 1.0",
         price: 1499.00,
         category: "portfolio",
         image: "assets/PORT2.jpg",
@@ -102,7 +102,7 @@ const templates = [
     },
     {
         id: 11,
-        name: "Classes WebSites",
+        name: "Classes WebSites 1.0",
         price: 1499.00,
         category: "business",
         image: "assets/EDU.jpg",
@@ -132,7 +132,7 @@ const templates = [
     },
     {
         id: 14,
-        name: "Thanks",
+        name: "Thanks 1.0",
         price: 119.00,
         category: "love",
         image: "assets/LOVE3.jpg",
@@ -202,7 +202,7 @@ const templates = [
     },
     {
         id: 21,
-        name: "Construction Company",
+        name: "Construction Company 1.0",
         price: 1499.00,
         category: "business",
         image: "assets/Real.Estate3.jpg",
@@ -242,6 +242,16 @@ const templates = [
     },
     {
         id: 25,
+        name: "Fitness Master 2.0",
+        price: 1299.00,
+        category: "Portfolio",
+        image: "assets/Gym2.jpg",
+        description: "A dark themed Gym Portfolio with whatsapp messaging system. Book now and Boost your Gym's online presence & get more Clients",
+        badge: "NEW",
+        link: "https://gym-20codrenix.netlify.app",
+    },
+    {
+        id: 26,
         name: "Fitness Master",
         price: 1299.00,
         category: "Portfolio",
@@ -250,7 +260,6 @@ const templates = [
         badge: "NEW",
         link: "https://gym-20codrenix.netlify.app",
     },
-    
 ];
 
 // Cart functionality
