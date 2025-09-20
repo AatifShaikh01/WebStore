@@ -88,7 +88,7 @@ const templates = [
         image: "assets/PORT2.jpg",
         description: "A sleek, modern portfolio website designed specifically for editors. Featuring an elegant dark theme, it allows you to beautifully showcase your past work, client reviews, and detailed pricing, making a powerful and professional impression.",
         badge: "Popular",
-        link: "https://editor-portfoliocodrenix.netlify.app",
+        link: "https://naseeb-studio.netlify.app/",
     },
     {
         id: 10,
