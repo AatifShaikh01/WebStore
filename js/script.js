@@ -23,7 +23,7 @@ const templates = [
     {
         id: 3,
         name: "Personal Company Porfolio",
-        price: 999,
+        price:,
         category: "portfolio",
         image: "assets/PORT1.jpg",
         description: "Beautiful portfolio template for Business, and creative professionals. with the dark premium look.",
@@ -33,7 +33,7 @@ const templates = [
     {
         id: 4,
         name: "Foodie's Delight",
-        price: 999.00,
+        price: ,
         category: "restaurant",
         image: "assets/RES1.jpg",
         description: "Elegant restaurant template with menu display, reservation system, and gallery.",
@@ -43,7 +43,7 @@ const templates = [
     {
         id: 5,
         name: "Fitness Master 1.0",
-        price: 1299.00,
+        price: ,
         category: "Portfolio",
         image: "assets/GYM1.jpg",
         description: "A dark themed Gym Portfolio with whatsapp messaging system. Book now and Boost your Gym's online presence & get more Clients",
@@ -53,7 +53,7 @@ const templates = [
     {
         id: 6,
         name: "Real Estate Pro",
-        price: 1499.00,
+        price: ,
         category: "business",
         image: "assets/Real.jpg",
         description: "Professional real estate template with property listings, search filters, and agent profiles.",
@@ -83,7 +83,7 @@ const templates = [
     {
         id: 9,
         name: "Video Editor's Portfolio 1.0",
-        price: 1499.00,
+        price: ,
         category: "portfolio",
         image: "assets/PORT2.jpg",
         description: "A sleek, modern portfolio website designed specifically for editors. Featuring an elegant dark theme, it allows you to beautifully showcase your past work, client reviews, and detailed pricing, making a powerful and professional impression.",
@@ -93,7 +93,7 @@ const templates = [
     {
         id: 10,
         name: "Doctor's Portfolio",
-        price: 1499.00,
+        price: ,
         category: "portfolio",
         image: "assets/DR1.jpg",
         description: "A professional and elegant portfolio website designed for doctors. With a clean, sophisticated layout, it allows you to showcase your specializations, credentials, and patient testimonials, building trust and credibility with a modern online presence.",
@@ -103,7 +103,7 @@ const templates = [
     {
         id: 11,
         name: "Classes WebSites 1.0",
-        price: 1499.00,
+        price: ,
         category: "business",
         image: "assets/EDU.jpg",
         description: "A professional and elegant portfolio website designed for doctors. With a clean, sophisticated layout, it allows you to showcase your specializations, credentials, and patient testimonials, building trust and credibility with a modern online presence.",
@@ -193,7 +193,7 @@ const templates = [
     {
         id: 20,
         name: "Real Estate Pro 2.0",
-        price: 1499.00,
+        price: ,
         category: "business",
         image: "assets/Real.Estate2.jpg",
         description: "Professional real estate template with property listings, search filters, and agent profiles.",
@@ -203,7 +203,7 @@ const templates = [
     {
         id: 21,
         name: "Construction Company 1.0",
-        price: 1499.00,
+        price: ,
         category: "business",
         image: "assets/Real.Estate3.jpg",
         description: "Professional Contruction Company template with property listings, search filters, and agent profiles.",
@@ -223,7 +223,7 @@ const templates = [
     {
         id: 23,
         name: "Foodie's Delight 2.0",
-        price: 999.00,
+        price: ,
         category: "restaurant",
         image: "assets/Rest2.jpg",
         description: "Elegant restaurant template with menu display, reservation system, and gallery.",
@@ -233,7 +233,7 @@ const templates = [
     {
         id: 24,
         name: "Video Editor's Portfolio 2.0",
-        price: 1499.00,
+        price: ,
         category: "portfolio",
         image: "assets/Editor's Portfolio 2.jpg",
         description: "A sleek, modern portfolio website designed specifically for editors. Featuring an elegant dark theme, it allows you to beautifully showcase your past work, client reviews, and detailed pricing, making a powerful and professional impression.",
@@ -243,7 +243,7 @@ const templates = [
     {
         id: 25,
         name: "Fitness Master 2.0",
-        price: 1299.00,
+        price: ,
         category: "Portfolio",
         image: "assets/Gym2.jpg",
         description: "A dark themed Gym Portfolio with whatsapp messaging system. Book now and Boost your Gym's online presence & get more Clients",
