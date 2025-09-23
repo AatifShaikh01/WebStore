@@ -470,7 +470,7 @@ function sendToWhatsApp() {
     });
 
     orderSummary += `%0A*Total: ₹${total.toFixed(2)}*%0A%0A`;
-    orderSummary += `Thank you for your order!`;
+    orderSummary += `*Ordered from* :- https://codrenix-webstore.netlify.app`;
 
     // Create WhatsApp URL
     const whatsappURL = `https://wa.me/9552477146?text=${orderSummary}`;
