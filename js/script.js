@@ -23,7 +23,7 @@ const templates = [
     {
         id: 3,
         name: "Personal Company Porfolio",
-        prince: 1999.00,
+        price: 1999.00,
         category: "portfolio",
         image: "assets/PORT1.jpg",
         description: "Beautiful portfolio template for Business, and creative professionals. with the dark premium look.",
