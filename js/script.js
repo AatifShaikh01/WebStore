@@ -250,6 +250,16 @@ const templates = [
         badge: "NEW",
         link: "https://gym-20codrenix.netlify.app",
     },
+    {
+        id: 26,
+        name: "Construction Company 2.0",
+        price: 1999.00,
+        category: "business",
+        image: "assets/Construction Company 2.0.jpg",
+        description: "Professional Contruction Company template with property listings, search filters, and agent profiles.",
+        badge: "NEW",
+        link: "https://construction-codrenix.netlify.app/",
+    },
 ];
 
 // Cart functionality
