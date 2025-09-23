@@ -3,7 +3,7 @@ const templates = [
     {
         id: 1,
         name: "Birthday 1.0",
-        price: 149,
+        price: 199.00,
         category: "birthday",
         image: "assets/BD1.jpg",
         description: "A profesionally Devloped with beutiful theme, fonts, amazing functionality and your fav song in background. Customize and suprise your partner.",
@@ -13,7 +13,7 @@ const templates = [
     {
         id: 2,
         name: "Birthday 2.0",
-        price: 149,
+        price: 199.00,
         category: "birthday",
         image: "assets/BD2.jpg",
         description: "A profesionally Devloped with beutiful theme, fonts, amazing functionality and your fav song in background. Customize and suprise your partner.",
@@ -23,7 +23,7 @@ const templates = [
     {
         id: 3,
         name: "Personal Company Porfolio",
-        price:,
+        prince: 1999.00,
         category: "portfolio",
         image: "assets/PORT1.jpg",
         description: "Beautiful portfolio template for Business, and creative professionals. with the dark premium look.",
@@ -33,7 +33,7 @@ const templates = [
     {
         id: 4,
         name: "Foodie's Delight",
-        price: ,
+        price: 1999.00,
         category: "restaurant",
         image: "assets/RES1.jpg",
         description: "Elegant restaurant template with menu display, reservation system, and gallery.",
@@ -43,7 +43,7 @@ const templates = [
     {
         id: 5,
         name: "Fitness Master 1.0",
-        price: ,
+        price: 1999.00,
         category: "Portfolio",
         image: "assets/GYM1.jpg",
         description: "A dark themed Gym Portfolio with whatsapp messaging system. Book now and Boost your Gym's online presence & get more Clients",
@@ -53,7 +53,7 @@ const templates = [
     {
         id: 6,
         name: "Real Estate Pro",
-        price: ,
+        price: 1999.00,
         category: "business",
         image: "assets/Real.jpg",
         description: "Professional real estate template with property listings, search filters, and agent profiles.",
@@ -63,7 +63,7 @@ const templates = [
     {
         id: 7,
         name: "Anniversary 1.0",
-        price: 149.00,
+        price: 199.00,
         category: "anniversary",
         image: "assets/ANNI1.jpg",
         description: "Make your day spacial with your heartfelt words, cherished memories, and their favorite song playing in the background.",
@@ -73,7 +73,7 @@ const templates = [
     {
         id: 8,
         name: "Anniversary 2.0",
-        price: 149.00,
+        price: 199.00,
         category: "anniversary",
         image: "assets/ANNI2.jpg",
         description: "Make your day spacial with your heartfelt words, cherished memories, and their favorite song playing in the background.",
@@ -83,7 +83,7 @@ const templates = [
     {
         id: 9,
         name: "Video Editor's Portfolio 1.0",
-        price: ,
+        price: 1999.00,
         category: "portfolio",
         image: "assets/PORT2.jpg",
         description: "A sleek, modern portfolio website designed specifically for editors. Featuring an elegant dark theme, it allows you to beautifully showcase your past work, client reviews, and detailed pricing, making a powerful and professional impression.",
@@ -93,7 +93,7 @@ const templates = [
     {
         id: 10,
         name: "Doctor's Portfolio",
-        price: ,
+        price: 1999.00,
         category: "portfolio",
         image: "assets/DR1.jpg",
         description: "A professional and elegant portfolio website designed for doctors. With a clean, sophisticated layout, it allows you to showcase your specializations, credentials, and patient testimonials, building trust and credibility with a modern online presence.",
@@ -103,7 +103,7 @@ const templates = [
     {
         id: 11,
         name: "Classes WebSites 1.0",
-        price: ,
+        price: 1999.00,
         category: "business",
         image: "assets/EDU.jpg",
         description: "A professional and elegant portfolio website designed for doctors. With a clean, sophisticated layout, it allows you to showcase your specializations, credentials, and patient testimonials, building trust and credibility with a modern online presence.",
@@ -113,7 +113,7 @@ const templates = [
     {
         id: 12,
         name: "Sent Some Love",
-        price: 119.00,
+        price: 129.00,
         category: "love",
         image: "assets/LOVE1.jpg",
         description: "A normal love website for express your love. Book and give some love to your spacial one",
@@ -123,7 +123,7 @@ const templates = [
     {
         id: 13,
         name: "Marriage Proposal",
-        price: 119.00,
+        price: 129.00,
         category: "love",
         image: "assets/LOVE2.jpg",
         description: "Make your Proposal spacial with the website with background music memories wall and your spacial letter.",
@@ -133,7 +133,7 @@ const templates = [
     {
         id: 14,
         name: "Thanks 1.0",
-        price: 119.00,
+        price: 129.00,
         category: "love",
         image: "assets/LOVE3.jpg",
         description: "Thanks A spacial person with customize website.",
@@ -143,7 +143,7 @@ const templates = [
     {
         id: 15,
         name: "Valentine's Day",
-        price: 119.00,
+        price: 129.00,
         category: "love",
         image: "assets/LOVE4.jpg",
         description: "Wish Valentine's Day to your spacial one in different style with customized website with your words and memories. ",
@@ -153,7 +153,7 @@ const templates = [
     {
         id: 16,
         name: "Anniversary 3.0",
-        price: 149.00,
+        price: 199.00,
         category: "anniversary",
         image: "assets/LOVE5.jpg",
         description: "This is a beautiful and elegant wedding anniversary website, perfect for a personalized gift. It features a stunning dark and gold theme, a gallery for photos and videos, and a dedicated section for a personal love letter.",
@@ -163,7 +163,7 @@ const templates = [
     {
         id: 17,
         name: "Birthday 3.0",
-        price: 149.00,
+        price: 199.00,
         category: "birthday",
         image: "assets/IMG-20250823-WA0000.jpg",
         description: "This is a beautiful and elegant wedding birthday website, perfect for a personalized gift. It features a stunning dark and gold theme, a gallery for photos and videos, and a dedicated section for a personal love letter.",
@@ -183,7 +183,7 @@ const templates = [
     {
         id: 19,
         name: "Anniversary 4.0",
-        price: 249.00,
+        price: 299.00,
         category: "anniversary",
         image: "assets/ANNI4.jpg",
         description: "A romantic Anniversary Website designed to celebrate love with heartfelt messages, soothing music, and elegant animations — a unique gift to make your special day unforgettable.",
@@ -193,7 +193,7 @@ const templates = [
     {
         id: 20,
         name: "Real Estate Pro 2.0",
-        price: ,
+        price: 1999.00,
         category: "business",
         image: "assets/Real.Estate2.jpg",
         description: "Professional real estate template with property listings, search filters, and agent profiles.",
@@ -203,7 +203,7 @@ const templates = [
     {
         id: 21,
         name: "Construction Company 1.0",
-        price: ,
+        price: 1999.00,
         category: "business",
         image: "assets/Real.Estate3.jpg",
         description: "Professional Contruction Company template with property listings, search filters, and agent profiles.",
@@ -213,7 +213,7 @@ const templates = [
     {
         id: 22,
         name: "Birthday 4.0",
-        price: 149,
+        price: 199.00,
         category: "birthday",
         image: "assets/Birthday.new.jpg",
         description: "A profesionally Devloped with beutiful theme, fonts, amazing functionality and your fav song in background. Customize and suprise your partner.",
@@ -223,7 +223,7 @@ const templates = [
     {
         id: 23,
         name: "Foodie's Delight 2.0",
-        price: ,
+        price: 1999.00,
         category: "restaurant",
         image: "assets/Rest2.jpg",
         description: "Elegant restaurant template with menu display, reservation system, and gallery.",
@@ -233,7 +233,7 @@ const templates = [
     {
         id: 24,
         name: "Video Editor's Portfolio 2.0",
-        price: ,
+        price: 1999.00,
         category: "portfolio",
         image: "assets/Editor's Portfolio 2.jpg",
         description: "A sleek, modern portfolio website designed specifically for editors. Featuring an elegant dark theme, it allows you to beautifully showcase your past work, client reviews, and detailed pricing, making a powerful and professional impression.",
@@ -243,7 +243,7 @@ const templates = [
     {
         id: 25,
         name: "Fitness Master 2.0",
-        price: ,
+        price: 1999.00,
         category: "Portfolio",
         image: "assets/Gym2.jpg",
         description: "A dark themed Gym Portfolio with whatsapp messaging system. Book now and Boost your Gym's online presence & get more Clients",
