@@ -93,7 +93,7 @@ const templates = [
     {
         id: 10,
         name: "Doctor's Portfolio",
-        price: 1999.00,
+        price: 2999.00,
         category: "portfolio",
         image: "assets/DR1.jpg",
         description: "A professional and elegant portfolio website designed for doctors. With a clean, sophisticated layout, it allows you to showcase your specializations, credentials, and patient testimonials, building trust and credibility with a modern online presence.",
