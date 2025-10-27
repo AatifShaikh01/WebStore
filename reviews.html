@@ -3,16 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codrenix WebStore - Premium Website Templates</title>
+    <title>Customer Reviews - Codrenix WebStore</title>
+    <meta name="description" content="Read what our customers say about our website templates. Real reviews from happy clients.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .reviews-hero {
+            padding: 120px 0 80px;
+            text-align: center;
+            color: white;
+            background-color: rgb(2, 13, 53);
+        }
+        
+        .reviews-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .review-card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .review-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+        }
+        
+        .review-stars {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #f39c12;
+        }
+        
+        .review-template {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        .review-text {
+            font-size: 15px;
+            color: #000000;
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        
+        .reviewer {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+        }
+        
+        .reviewer-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #1d4ed8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .reviewer-name {
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .review-date {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+        
+        .stats-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .stat-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            min-width: 150px;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        
+        .review-filters {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 8px 20px;
+            border: 2px solid #1d4ed8;
+            background: white;
+            color: #1d4ed8;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        
+        .filter-btn.active {
+            background: #1d4ed8;
+            color: white;
+        }
+        
+        .review-summary {
+            text-align: center;
+            margin: 40px 0;
+            padding: 30px;
+            background: #f8fafc;
+            border-radius: 10px;
+        }
+        
+        .rating-breakdown {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .rating-item {
+            text-align: center;
+        }
+        
+        .rating-stars {
+            font-size: 14px;
+            color: #f39c12;
+            margin-bottom: 5px;
+        }
+        
+        .rating-count {
+            font-size: 12px;
+            color: #7f8c8d;
+        }
+        
+        @media (max-width: 768px) {
+            .reviews-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-container {
+                gap: 15px;
+            }
+            
+            .stat-card {
+                min-width: 120px;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
     <header>
         <div class="container">
             <nav>
-                <a href="#" class="logo">C-WebStore</a>
+                <a href="index.html" class="logo">C-WebStore</a>
                 
                 <div class="search-container">
                     <input type="text" class="search-bar" id="searchInput" placeholder="Search templates...">
@@ -22,9 +203,9 @@
                 </div>
 
                 <ul class="nav-links">
-                    <li><a href="index.html/#products">Templates</a></li>
-                    <li><a href="index.html/#features">Features</a></li>
-                    <li><a href="index.html/#contact">Contact</a></li>
+                    <li><a href="index.html#products">Templates</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
                 </ul>
                 
                 <div class="cart-icon" id="cartIcon">
@@ -36,77 +217,241 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="reviews-hero">
         <div class="container">
-            <h1>Reviews</h1>
-            <p>Hear directly from people who’ve been with us — their experiences say more than we ever could.</p>
-            <a href="index.html" class="btn">HOME</a>
-            <br>
-            <br>
-            <button class="top">⭐ 4.02 (8)</button>
-            <button class="top">📝 Orders (21)</button>
-            <button class="top">❤️ Likes (17)</button>
+            <h1>Customer Reviews</h1>
+            <p>Hear directly from people who've been with us — their experiences say more than we ever could.</p>
+            <a href="index.html" class="btn">Back to Home</a>
+            
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-value">4.02</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">21+</div>
+                    <div class="stat-label">Orders</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">17+</div>
+                    <div class="stat-label">Likes</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">9</div>
+                    <div class="stat-label">Reviews</div>
+                </div>
+            </div>
         </div>
     </section>
     
     <!-- Review Section -->
-    <section class="products" id="features" style="background: #f8fafc;">
-        <div class="review-container">
-            <div style="text-align: center; max-width: 800px; margin: 0 auto;">
-                <div class="review-card" id="review">
-                    <h3>⭐⭐⭐⭐</h3>
-                    <h4>Anniversary 2.0</h4>
-                    <p>"I surprised my parents with this anniversary website. It was emotional and beautiful. They loved it."</p>
-                    <p> @Sneha Gupta</p>
+    <section class="products" style="background: #f8fafc;">
+        <div class="reviews-container">
+            <div class="review-summary">
+                <h2>Overall Customer Satisfaction</h2>
+                <div class="review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span style="margin-left: 10px; color: #2c3e50; font-size: 18px;">4.02/5</span>
                 </div>
-                <div class="review-card" id="review">
-                    <h3>⭐⭐⭐⭐⭐</h3>
-                    <h4>Video Editor’s Portfolio</h4>
-                    <p>"As a freelancer, this portfolio gave me the professional edge I needed. Sleek design and very smooth. I am using it personally you can see it in my insta bio @munawar.lalaa"</p>
-                    <p> @Aabid Khan</p>
+                <p>Based on 9 verified customer reviews</p>
+                
+                <div class="rating-breakdown">
+                    <div class="rating-item">
+                        <div class="rating-stars">★★★★★</div>
+                        <div class="rating-count">5 reviews</div>
+                    </div>
+                    <div class="rating-item">
+                        <div class="rating-stars">★★★★</div>
+                        <div class="rating-count">3 reviews</div>
+                    </div>
+                    <div class="rating-item">
+                        <div class="rating-stars">★★★</div>
+                        <div class="rating-count">1 review</div>
+                    </div>
                 </div>
-                <div class="review-card" id="review">
-                    <h3>⭐⭐⭐⭐⭐</h3>
-                    <h4>Birthday 2.0</h4>
-                    <p>"Mere dost ke liye banaya tha, sab ne bola kahan se banaya? Easy setup aur photos add karna bahut simple tha. Worth it!"</p>
-                    <p>@Shubham</p>
+            </div>
+            
+            <div class="review-filters">
+                <button class="filter-btn active" data-rating="all">All Reviews</button>
+                <button class="filter-btn" data-rating="5">5 Stars</button>
+                <button class="filter-btn" data-rating="4">4 Stars</button>
+                <button class="filter-btn" data-rating="3">3 Stars</button>
+            </div>
+            
+            <div class="reviews-grid" id="reviewsGrid">
+                <div class="review-card" data-rating="4">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h3 class="review-template">Anniversary 2.0</h3>
+                    <p class="review-text">"I surprised my parents with this anniversary website. It was emotional and beautiful. They loved it."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">SG</div>
+                        <div>
+                            <div class="reviewer-name">Sneha Gupta</div>
+                            <div class="review-date">March 15, 2024</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="review-card" id="review">
-                    <h3>⭐⭐⭐⭐⭐</h3>
-                    <h4>Personal Company Portfolio</h4>
-                    <p>"That is my Personal Portfolio. I am personally using it."</p>
-                    <p> @Codrenix</p>
+                
+                <div class="review-card" data-rating="5">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="review-template">Video Editor's Portfolio</h3>
+                    <p class="review-text">"As a freelancer, this portfolio gave me the professional edge I needed. Sleek design and very smooth. I am using it personally you can see it in my insta bio @munawar.lalaa"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">AK</div>
+                        <div>
+                            <div class="reviewer-name">Aabid Khan</div>
+                            <div class="review-date">February 28, 2024</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="review-card" id="review">
-                    <h3>⭐⭐⭐⭐</h3>
-                    <h4>Classes Websites</h4>
-                    <p>"I used this for my online coaching website. Organized, responsive, and my students love the layout."</p>
-                    <p> @Amit Gaikwad</p>
+                
+                <div class="review-card" data-rating="5">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="review-template">Birthday 2.0</h3>
+                    <p class="review-text">"Mere dost ke liye banaya tha, sab ne bola kahan se banaya? Easy setup aur photos add karna bahut simple tha. Worth it!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">S</div>
+                        <div>
+                            <div class="reviewer-name">Shubham</div>
+                            <div class="review-date">February 10, 2024</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="review-card" id="review">
-                    <h3>⭐⭐⭐⭐</h3>
-                    <h4>Anniversary 2.0</h4>
-                    <p>"Made a surprise website for my wife — she was blown away! The animations and background music made it super romantic. Best purchase I made this year."</p>
-                    <p>@Sameer Shaikh</p>
+                
+                <div class="review-card" data-rating="5">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="review-template">Personal Company Portfolio</h3>
+                    <p class="review-text">"That is my Personal Portfolio. I am personally using it."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">C</div>
+                        <div>
+                            <div class="reviewer-name">Codrenix</div>
+                            <div class="review-date">January 25, 2024</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="review-card" id="review">
-                    <h3>⭐⭐⭐⭐⭐</h3>
-                    <h4>Foodie’s Delight</h4>
-                    <p>"Stunning visuals and menu layout — my customers love the gallery and online order button. Setup was straightforward and support answered my questions quickly."</p>
-                    <p>@Rohan Sonune</p>
+                
+                <div class="review-card" data-rating="4">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h3 class="review-template">Classes Websites</h3>
+                    <p class="review-text">"I used this for my online coaching website. Organized, responsive, and my students love the layout."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">AG</div>
+                        <div>
+                            <div class="reviewer-name">Amit Gaikwad</div>
+                            <div class="review-date">January 18, 2024</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="review-card" id="review">
-                    <h3>⭐⭐⭐⭐⭐</h3>
-                    <h4>Fitness Master</h4>
-                    <p>"Design solid hai, gym vibes perfectly match karta hai. Clients ko link bhejte hi response aaya. Value for money 🔥"</p>
-                    <p>@sachin Health Club</p>
+                
+                <div class="review-card" data-rating="4">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h3 class="review-template">Anniversary 2.0</h3>
+                    <p class="review-text">"Made a surprise website for my wife — she was blown away! The animations and background music made it super romantic. Best purchase I made this year."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">SS</div>
+                        <div>
+                            <div class="reviewer-name">Sameer Shaikh</div>
+                            <div class="review-date">December 22, 2023</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="review-card" id="review">
-                    <h3>⭐⭐⭐⭐⭐</h3>
-                    <h4>Anniversary 3.0</h4>
-                    <p>"I loved the website that you made , it's heartwarming... Even my girlfriend loved it and it absolutely made her happy . All the photos and videos made her emotional and brings back memories.❤
-I am really thankful that you deleted all my private data and it's definitely worth trusting you . I would highly recommend it to my friends. Thank you so much for making my anniversary memorable. ✨"</p>
-                    <p>@ Ansh Kumat</p>
+                
+                <div class="review-card" data-rating="5">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="review-template">Foodie's Delight</h3>
+                    <p class="review-text">"Stunning visuals and menu layout — my customers love the gallery and online order button. Setup was straightforward and support answered my questions quickly."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">RS</div>
+                        <div>
+                            <div class="reviewer-name">Rohan Sonune</div>
+                            <div class="review-date">December 5, 2023</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card" data-rating="5">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="review-template">Fitness Master</h3>
+                    <p class="review-text">"Design solid hai, gym vibes perfectly match karta hai. Clients ko link bhejte hi response aaya. Value for money 🔥"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">SHC</div>
+                        <div>
+                            <div class="reviewer-name">Sachin Health Club</div>
+                            <div class="review-date">November 30, 2023</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card" data-rating="5">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="review-template">Anniversary 3.0</h3>
+                    <p class="review-text">"I loved the website that you made , it's heartwarming... Even my girlfriend loved it and it absolutely made her happy . All the photos and videos made her emotional and brings back memories.❤ I am really thankful that you deleted all my private data and it's definitely worth trusting you . I would highly recommend it to my friends. Thank you so much for making my anniversary memorable. ✨"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">AK</div>
+                        <div>
+                            <div class="reviewer-name">Ansh Kumat</div>
+                            <div class="review-date">November 15, 2023</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,5 +465,33 @@ I am really thankful that you deleted all my private data and it's definitely wo
     </footer>
 
     <script src="js/script.js"></script>
+    <script>
+        // Review filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const reviewCards = document.querySelectorAll('.review-card');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const rating = this.getAttribute('data-rating');
+                    
+                    // Filter reviews
+                    reviewCards.forEach(card => {
+                        if (rating === 'all' || card.getAttribute('data-rating') === rating) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 </html>
