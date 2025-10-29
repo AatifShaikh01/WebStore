@@ -365,20 +365,19 @@
     </section>
 
     <!-- Categories -->
-    <section class="categories">
-        <div class="container">
-            <div class="category-buttons" id="categoryButtons">
-                <button class="category-btn active" data-category="all">All Templates</button>
-                <button class="category-btn" data-category="anniversary">Anniversary</button>
-                <button class="category-btn" data-category="birthday">Birthday</button>
-                <button class="category-btn" data-category="portfolio">Portfolio</button>
-                <button class="category-btn" data-category="restaurant">Restaurant</button>
-                <button class="category-btn" data-category="love">Love</button>
-                <button class="category-btn" data-category="business">Business</button>
-                <button class="category-btn" data-category="medical">Medical</button>
-            </div>
-        </div>
-    </section>
+    <div class="category-dropdown">
+            <h1 style="margin-left: 10px;">Categories</h1>
+        <select id="categorySelect">
+            <option value="all">All Templates</option>
+            <option value="anniversary">Anniversary</option>
+            <option value="birthday">Birthday</option>
+            <option value="portfolio">Portfolio</option>
+            <option value="restaurant">Restaurant</option>
+            <option value="love">Love</option>
+            <option value="business">Business</option>
+            <option value="medical">Medical</option>
+        </select>
+    </div>
 
     <!-- Products Section -->
     <section class="products" id="products">
