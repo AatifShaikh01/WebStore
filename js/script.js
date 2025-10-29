@@ -484,14 +484,14 @@ function setupEventListeners() {
     }
     
     // Category buttons
-    if (categoryButtons) {
-        categoryButtons.addEventListener('click', function(e) {
-            if (e.target.classList.contains('category-btn')) {
-                const category = e.target.dataset.category;
-                filterByCategory(category);
-            }
-        });
-    }
+const categorySelect = document.getElementById('categorySelect');
+
+if (categorySelect) {
+    categorySelect.addEventListener('change', function() {
+        const category = this.value;
+        filterByCategory(category); // same function, no change needed
+    });
+}
     
     // Sort buttons
     const sortButtons = document.querySelectorAll('.sort-btn');
